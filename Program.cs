@@ -206,13 +206,9 @@ namespace Stunde_13
 
                 Quocient /= 16;
 
-                if(Rest < 9)
-                {
-                    hexadezimalZahl = ZahlZuBuchstabe(Rest) + hexadezimalZahl;
-
-                }
-
                 
+                hexadezimalZahl = ZahlZuBuchstabe(Rest) + hexadezimalZahl;
+
             }
             return hexadezimalZahl;
         }
